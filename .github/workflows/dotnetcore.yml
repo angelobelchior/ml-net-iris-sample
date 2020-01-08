@@ -19,8 +19,8 @@ jobs:
     
     - name: Restore
       run: dotnet restore
-      working-directory: ./src
+      working-directory: ./MLNetEstudos
     
     - name: Build with dotnet
       run: dotnet build --configuration Release
-      working-directory: ./src
+      working-directory: ./MLNetEstudos
